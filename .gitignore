@@ -1,0 +1,29 @@
+# Build Output
+build/
+dist/
+out/
+
+# Next.js Build Output
+.next/
+
+# Supabase Database Credentials
+.env
+
+# Local Development Dependencies
+node_modules/
+
+# Test Data
+.test/
+.tmp/
+
+# Visual Studio Code Files
+.vscode/
+
+# Logs
+logs/
+
+# IDE-Specific Files
+.idea/
+
+# Unused Files
+*.*~
