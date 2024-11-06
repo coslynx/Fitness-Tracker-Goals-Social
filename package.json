@@ -1,0 +1,32 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "A web application for fitness goal tracking",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.14",
+    "zustand": "^5.0.1",
+    "axios": "^1.7.7",
+    "next-auth": "^4.24.10",
+    "@supabase/supabase-js": "^2.46.1",
+    "supabase": "^1.215.0",
+    "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "prettier": "^3.3.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/node": "^22.9.0"
+  }
+}
