@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 font-sans text-gray-900;
+  padding: 2rem;
+}
+
+button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline;
+}
+
+.container {
+  @apply max-w-screen-xl mx-auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    @apply max-w-screen-md;
+  }
+}
